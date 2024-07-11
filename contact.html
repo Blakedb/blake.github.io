@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Contact Us - Washington State</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="Photos/waState.png" alt="Picture of Washington state" class="header-image">
+        <h1 class="main-header">Contact Us</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="cities.html">Cities</a>
+                <ul class="dropdown-content">
+                    <li><a href="olympia.html">Olympia</a></li>
+                    <li><a href="seattle.html">Seattle</a></li>
+                    <li><a href="vancouver.html">Vancouver</a></li>
+                </ul>
+            </li>
+            <li><a href="https://www.google.com/maps/d/viewer?hl=en&ie=UTF8&msa=0&ll=47.301269991234136%2C-120.8825225&spn=4.793484%2C10.151367&z=7&source=embed&mid=1vxAKq_iGra-1I5G2o-bsP3fCmlI" target="_blank">Maps</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form class="contact-form" id="contactForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="confirmEmail">Confirm Email:</label>
+                <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Re-enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Submit</button>
+                <p id="error-message" style="color: red; padding-top: 10px; display: none;">Emails do not match. Please try again.</p>
+            </form>
+        </div>
+        <aside class="sidebar">
+            <h2>Connect</h2>
+            <ul class="social-links">
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">LinkedIn</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cities.html">Cities</a></li>
+            <li><a href="https://www.google.com/maps/d/viewer?hl=en&ie=UTF8&msa=0&ll=47.301269991234136%2C-120.8825225&spn=4.793484%2C10.151367&z=7&source=embed&mid=1vxAKq_iGra-1I5G2o-bsP3fCmlI" target="_blank">Maps</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
