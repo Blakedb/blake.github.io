@@ -495,21 +495,21 @@ footer ul li a:hover {
 
 @media screen and (max-width: 1200px) {
     .history-section, .city {
-        width: 90%;
+        width: 100%;
     }
 
     .sidebar {
-        width: 90%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .history-section, .city {
-        width: 90%;
+        width: 100%;
     }
 
     .sidebar {
-        width: 90%;
+        width: 100%;
     }
 
     .history-header, .city h2 {
@@ -571,13 +571,13 @@ footer ul li a:hover {
 
 @media screen and (max-width: 1200px) {
     .form-container {
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .form-container {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -626,13 +626,13 @@ footer ul li a:hover {
 
 @media screen and (max-width: 1200px) {
     .form-container {
-        width: 90%;
-        margin: auto;
+        width: 100%;
+        margin: 20px auto;
     }
 
     .contact-aside {
         width: 90%;
-        margin: 20px auto 40px; 
+        margin: 20px auto; 
         position: static;
         clear: both;
     }
@@ -640,8 +640,8 @@ footer ul li a:hover {
 
 @media screen and (max-width: 600px) {
     .form-container {
-        width: 90%;
-        margin: auto;
+        width: 100%;
+        margin: 20px auto;
     }
 
     .contact-aside {
@@ -659,8 +659,8 @@ footer ul li a:hover {
 
 .sidebar .history-table th, .sidebar .history-table td {
     border: 1px solid #555;
-    padding: 8px;
-    text-align: left;
+    padding: 8px 4px;
+    text-align: center;
 }
 
 .sidebar .history-table th {
